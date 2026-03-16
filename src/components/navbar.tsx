@@ -73,11 +73,11 @@ export function Navbar() {
               </div>
 
               {/* Brand name */}
-              <div className="hidden sm:flex flex-col leading-none">
+              <div className="flex flex-col leading-none">
                 <span className="text-white font-extrabold text-lg tracking-wide group-hover:text-amber-400 transition-colors duration-300">
                   D1 Secure
                 </span>
-                <span className="text-[10px] font-semibold tracking-[0.2em] text-slate-400 uppercase">
+                <span className="text-[10px] sm:hidden md:block font-semibold tracking-[0.2em] text-slate-400 uppercase">
                   Security & Facilities
                 </span>
               </div>
