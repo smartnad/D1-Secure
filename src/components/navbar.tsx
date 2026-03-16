@@ -185,19 +185,6 @@ export function Navbar() {
               transition={{ duration: 0.3, ease: "easeOut" }}
               className="fixed top-0 left-0 right-0 z-40 bg-[#0F172A] border-b border-white/10 shadow-2xl pt-24 pb-6 px-6 md:hidden"
             >
-              {/* Brand strip */}
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-white/10">
-                <div className="p-[2px] rounded-full bg-gradient-to-br from-red-500 via-red-600 to-red-800">
-                  <div className="w-10 h-10 rounded-full overflow-hidden bg-[#0F172A] flex items-center justify-center">
-                    <Image src="/logo.png" alt="D1 Secure Logo" width={38} height={38} className="object-contain scale-110" />
-                  </div>
-                </div>
-                <div>
-                  <p className="text-white font-extrabold text-base">D1 Secure</p>
-                  <p className="text-[10px] tracking-widest text-slate-400 uppercase">Security & Facilities</p>
-                </div>
-              </div>
-
               {/* Links */}
               <nav className="flex flex-col gap-1">
                 {navItems.map((item, i) => {
